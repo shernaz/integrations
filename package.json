@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple Node Sandbox",
   "scripts": {
-    "client": "cd client && npm serve",
+    "client": "cd client && npm run serve",
     "server": "cd server && npm start",
     "start": "concurrently  \"npm run server\" \"npm run client\""
   },
